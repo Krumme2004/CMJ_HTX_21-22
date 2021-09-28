@@ -1,6 +1,6 @@
 int belob = 100;
 float belobMedMoms = 0;
-float belobUdenMoms = 0;
+float belobUdenMoms= 0;
 
 String navn = "Jens";
 
@@ -13,6 +13,7 @@ void draw(){
   float belobMedMoms = beregnMoms(belob);
   float belobUdenMoms =fraregnMoms(belob);
   println (belobMedMoms);
+  println (belobUdenMoms);
   print (day(),"/",month(),year(), hour(),":",minute());
 
   
@@ -24,5 +25,5 @@ float beregnMoms(int belob){
 }
 
 float fraregnMoms(int belob){
-  return belob/1.20;
+  return belob;
 }
