@@ -1,2 +1,6 @@
 # CMJ_HTX_21-22
-Kode fra programmeringstimer 2021/2022
+
+Disse koder er lavet af Cecilie Marie Jensen.
+Kodene fra programmeringstimerne i 2021/2022.
+
+
