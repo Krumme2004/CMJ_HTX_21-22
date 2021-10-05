@@ -26,3 +26,5 @@ void drawHjul() {
   line(0,0,75,-130);
   line(0,0,75,130);
 }
+
+//HEY
