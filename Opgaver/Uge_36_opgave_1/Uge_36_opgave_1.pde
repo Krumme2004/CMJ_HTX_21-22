@@ -7,13 +7,13 @@ void  draw(){
   background(224,224,224);
   
   translate(hjul-10,250);
-  hjul++;
+  hjul+=5;
   if (hjul>width) {
     hjul+=0;
   }
       
         pushMatrix();
-        rotate(frameCount/100.0);
+        rotate(frameCount/20.0);
         drawHjul();
         popMatrix();
     }
